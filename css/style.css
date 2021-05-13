@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar Section */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    border-bottom: solid 0.5px rgb(235, 222, 222);
+}
+
+.navbar #logo {
+    width: 2.5rem;
+    padding: 0;
+    margin-right: 0.75rem;
+    margin-left: 5%;
+    position: relative;
+    bottom: .25rem;
+}
+.navbar .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: rgb(235, 222, 222) !important;
+    margin-left: 1.5rem;
+}
+
+.fa-bars {
+    color: rgb(235, 222, 222);
+    font-size: 1.625rem;
+}
+
+.navbar-nav {
+    margin-right: 1.5rem;
+}
+.navbar-nav li {
+    padding: 0 8px;
+}
+.navbar-nav li a {
+    color: rgb(235, 222, 222) !important;
+    font-size: 1.15rem;
+    text-align: center;
+}
+.navbar-nav li a:hover {
+    color: rgb(255, 255, 0) !important;
+    font-weight: 500;
+}
+
+/* Banner Section */
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782); 
+    color: rgb(235, 222, 222) !important;
+}
+
+#banner-text {
+    margin-top: 50px;
+}
+#banner h1 {
+    margin-left: 2.5%;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#banner p {
+    margin-top: 25px;
+}
+#banner a {
+    text-decoration: none;
+    color: rgb(235, 222, 222);
+    border: solid rgb(235, 222, 222);
+    display: inline-block;
+    position: relative;
+    left: 3.5%;
+    margin: 5px 0 15px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    transition: 0.2s;
+}
+#banner a:hover {
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(255, 255, 0);
+    border: solid rgb(255, 255, 0);
+}
+#banner img {
+    width: 75%;
+    margin-top: 10px;
+}
+
+#bottom-img {
+    width: 100%;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
